@@ -1,0 +1,10 @@
+BRG01,KopiSachet,40
+BRG02,Roti,32
+BRG03,AirMineral,55
+BRG04,Susu,43
+BRG05,Biskuit,37
+BRG06,Mie,19
+BRG07,Permen,20
+BRG08,TehBotol,31
+BRG09,BumbuPenyedap,15
+BRG10,Saus,26
