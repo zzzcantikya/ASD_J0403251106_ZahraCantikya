@@ -35,7 +35,7 @@ class stack:
     
     def pop(self):
             # 1. Periksa apakah stack kosong
-            if self.is_empty:
+            if self.top is None:
                     print("Stack kosong, tidak ada yang bisa di-pop.")
                     return None
             data_terhapus = self.top.data # simpan data yang akan dihapus
@@ -43,8 +43,9 @@ class stack:
             return data_terhapus # kembalikan data yang dihapus
     
     def peek(self):
+        
          #melihat data yang paling atas tanpa menghapus
-         if self.is_empty():
+         if self.top is None:
             return None
          return self.top.data
 
